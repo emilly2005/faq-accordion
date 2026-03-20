@@ -1,0 +1,75 @@
+@import url(faq-accordion-main/assets/fonts/WorkSans-Italic-VariableFont_wght.ttf);
+
+@import url(faq-accordion-main/assets/fonts/WorkSans-VariableFont_wght.ttf);
+:root {
+ --White: hsl(0, 100%, 100%);
+--Purple-100: hsl(275, 100%, 97%);
+--Purple-600: hsl(292, 16%, 49%);
+--Purple-950: hsl(292, 42%, 14%);
+}
+
+body {
+    font-size: 16px;
+    background-color:var(--Purple-100) ;
+    background-image: url(faq-accordion-main/assets/images/background-pattern-desktop.svg);
+    background-repeat: no-repeat;
+   background-size:1600px ;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   flex-direction: column;
+   font-family: "Work Sans", sans-serif;
+}
+
+.container {
+    background-color: var(--White);
+    width: 530px;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+h1 {
+    font-weight: 700;
+    color: var(--Purple-950);
+}
+
+.titulo {
+    display: flex;
+    gap: 10px;
+}
+
+.resposta {
+    color: var(--Purple-600);
+    opacity: 40%;
+    font-weight: 400;
+}
+
+.aparecer {
+   border-radius: 50%;
+   width: 30px;
+   height: 30px;
+   background-image: url('./assets/images/icon-plus.svg');
+   background-repeat: no-repeat;
+   border: none;
+   background-position: center;
+   background-size: contain;
+   align-items:center;
+   cursor: pointer;
+   grid-column: 2;
+   margin-top: 10px;
+   background-color: transparent;
+}
+
+.pergunta {
+    color: var(--Purple-950);
+    font-weight: 600;
+    grid-column: 1;
+}
+
+
+.mostrar{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 485px 30px;
+}
