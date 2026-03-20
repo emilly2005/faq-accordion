@@ -7,9 +7,9 @@ tudo.forEach(item =>{
     const ativo = !mais.hidden;
     mais.hidden = ativo;
   if (!ativo){
-    botao.style.backgroundImage="url('./assets/images/icon-minus.svg')";
+    botao.style.backgroundImage="url('./faq-accordion-main/assets/images/icon-minus.svg')";
   }else {
-    botao.style.backgroundImage="url('./assets/images/icon-plus.svg)";
+    botao.style.backgroundImage="url('./faq-accordion-main/assets/images/icon-plus.svg')";
   };
  }
 );
