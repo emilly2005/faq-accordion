@@ -73,3 +73,12 @@ h1 {
     gap: 30px;
     grid-template-columns: 485px 30px;
 }
+
+@media screen and (max-width:580px) {
+    .container {
+         width: 370px;
+    }
+    .mostrar{
+        grid-template-columns: 300px 30px;
+    }
+}
